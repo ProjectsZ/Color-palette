@@ -1,0 +1,35 @@
+db: colorux
+Cotejamiento: utf8_spanish_ci
+tablas:
+  -color
+  
+--------------------------------------------------
+colordesign
+  -c_id (int/ 10) (index-PRIMARY) (auto-incrementable)
+  -c_titulo (varchar/255)
+  -c_primario (varchar/22)
+  -c_secundario (varchar/22)
+  -c_resaltar (varchar/22)
+  -c_texto (varchar/22)
+  -c_textoIcon (varchar/22)
+  -c_favorito (varchar/255)
+
+
+colorswatches
+  -cs_id (int/ 10) (index-PRIMARY) (auto-incrementable)
+  -cs_titulo (varchar/ 15)
+  -cs_50 (varchar/ 7)
+  -cs_100 (varchar/ 7)
+  -cs_200 (varchar/ 7)
+  -cs_300 (varchar/ 7)
+  -cs_400 (varchar/ 7)
+  -cs_500 (varchar/ 7)
+  -cs_600 (varchar/ 7)
+  -cs_700 (varchar/ 7)
+  -cs_800 (varchar/ 7)
+  -cs_900 (varchar/ 7)
+  -cs_A100 (varchar/ 7)
+  -cs_A200 (varchar/ 7)
+  -cs_A400 (varchar/ 7)
+  -cs_A700 (varchar/ 7)
+  
