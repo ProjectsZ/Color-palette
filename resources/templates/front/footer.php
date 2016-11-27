@@ -26,6 +26,9 @@
     
     <script src="js/script.js"></script>
     
+    <script src="js/color-thief.js"></script> <!-- Color detect -->
+    <script src="js/mustache.js"></script> <!-- Color detect -->
+    <script src="js/demo.js"></script> <!-- Color detect -->
     
 </body>
 

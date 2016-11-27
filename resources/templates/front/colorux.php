@@ -87,13 +87,18 @@
    </h4>
    
 
-<!-------------------------------------------------------------->
-<div class="Color-Z">
+    <!-------------------------------------------------------------->
+    <div class="Color-Z">
 
-<?php include(TEMPLATE_FRONT .DS. "color_google.php") ?>
-</div>
-<!-------------------------------------------------------------->
-    
+    <?php include(TEMPLATE_FRONT .DS. "color_google.php") ?>
+    </div>
+    <!-------------------------------------------------------------->
+    <hr><br>
+   <h4 class="colorfavoritos">Color palette (Detect - Image)</h4>
+   <div class="color-d-image">
+       <?php include(TEMPLATE_FRONT .DS. "color_detect.php") ?>
+   </div>
+   
 </div>
                         <!-- /.panel-body -->
                     </div>
