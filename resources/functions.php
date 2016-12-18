@@ -66,31 +66,31 @@ function get_Color(){
 <div class="colorfavorito disqus-comment-count btn num-comments">{$row['c_id']} : {$row['c_titulo']}
   <span class="fa fa-chevron-left"></span>
            
-            <div style="float:right;" class="btn btn-action time-to-read" data-animation="true" data-toggle="tooltip" data-placement="top" data-html="true" title="<div class='tooltip-box'><div class='colores' style='background:{$row['c_primario']}; color: white;'><span class='colorLG'>{$row['c_primario']}</span></div><div class='colores' style='background:{$row['c_secundario']}; color: white;'><span class='colorLG'>{$row['c_secundario']}</span></div><div class='colores' style='background:{$row['c_resaltar']}; color: white;'><span class='colorLG'>{$row['c_resaltar']}</span></div><div class='colores' style='background:{$row['c_texto']};color: black;'><span class='colorLG'>{$row['c_texto']}</span></div><div class='colores' style='background:{$row['c_textoIcon']}; color: white;'><span class='colorLG'>{$row['c_textoIcon']}</span></div></div>">
-                <div class="color-forma-cuadrado" style="background:{$row['c_primario']};"></div>
-                <div class="color-forma-cuadrado" style="background:{$row['c_secundario']};"></div>
-                <div class="color-forma-cuadrado" style="background:{$row['c_resaltar']};"></div>
-                <div class="color-forma-cuadrado" style="background:{$row['c_texto']};"></div>
-                <div class="color-forma-cuadrado" style="background:{$row['c_textoIcon']};"></div>
+            <div style="float:right;" class="btn btn-action time-to-read" data-animation="true" data-toggle="tooltip" data-placement="top" data-html="true" title="<div class='tooltip-box'><div class='colores' style='background:#{$row['c_primario']}; color: white;'><span class='colorLG'>#{$row['c_primario']}</span></div><div class='colores' style='background:#{$row['c_secundario']}; color: white;'><span class='colorLG'>#{$row['c_secundario']}</span></div><div class='colores' style='background:#{$row['c_resaltar']}; color: white;'><span class='colorLG'>#{$row['c_resaltar']}</span></div><div class='colores' style='background:#{$row['c_texto']};color: black;'><span class='colorLG'>#{$row['c_texto']}</span></div><div class='colores' style='background:#{$row['c_textoIcon']}; color: white;'><span class='colorLG'>#{$row['c_textoIcon']}</span></div></div>">
+                <div class="color-forma-cuadrado" style="background:#{$row['c_primario']};"></div>
+                <div class="color-forma-cuadrado" style="background:#{$row['c_secundario']};"></div>
+                <div class="color-forma-cuadrado" style="background:#{$row['c_resaltar']};"></div>
+                <div class="color-forma-cuadrado" style="background:#{$row['c_texto']};"></div>
+                <div class="color-forma-cuadrado" style="background:#{$row['c_textoIcon']};"></div>
             </div>
        
 </div>
     
 <div class="disqus-wrapper">
-    <div class="colores" style="background:{$row['c_primario']}; color: white;">
-        <span class="colorH">{$row['c_primario']}</span>
+    <div class="colores" style="background:#{$row['c_primario']}; color: white;">
+        <span class="colorH">#{$row['c_primario']}</span>
     </div>
-    <div class="colores" style="background:{$row['c_secundario']}; color: white;">
-        <span class="colorH">{$row['c_secundario']}</span>
+    <div class="colores" style="background:#{$row['c_secundario']}; color: white;">
+        <span class="colorH">#{$row['c_secundario']}</span>
     </div>
-    <div class="colores" style="background:{$row['c_resaltar']}; color: white;">
-        <span class="colorH">{$row['c_resaltar']}</span>
+    <div class="colores" style="background:#{$row['c_resaltar']}; color: white;">
+        <span class="colorH">#{$row['c_resaltar']}</span>
     </div>
-    <div class="colores" style="background:{$row['c_texto']};color: black;">
-        <span class="colorH">{$row['c_texto']}</span>
+    <div class="colores" style="background:#{$row['c_texto']};color: black;">
+        <span class="colorH">#{$row['c_texto']}</span>
     </div>
-    <div class="colores" style="background:{$row['c_textoIcon']}; color: white;">
-        <span class="colorH">{$row['c_textoIcon']}</span>
+    <div class="colores" style="background:#{$row['c_textoIcon']}; color: white;">
+        <span class="colorH">#{$row['c_textoIcon']}</span>
     </div>
     
 </div>
